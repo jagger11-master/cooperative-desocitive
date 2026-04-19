@@ -9,7 +9,7 @@ function Phase1() {
             <img src={logo} alt="Charwe Logo" className="h-48 w-auto relative -top-12 mb-6 rounded-3xl" />
 
 
-            <h3 className="text-4xl md:text-6xl font-black text-slate-200 mb-10">
+            <h3 className="text-4xl md:text-6xl font-black text-slate-200 mb-12">
                Welcome to Charwe Media
                 
             </h3>
