@@ -1,5 +1,8 @@
-import logo from "../assets/charwe.png";
 
+
+import { Link } from 'react-router-dom';
+
+import logo from "../assets/charwe.png";
 
 
 function Phase1() {
@@ -19,13 +22,13 @@ function Phase1() {
             </p>
             <div className="flex flex-col items-center gap-6">
 
-            <button className="bg-orange-950 text-white px-10 py-4 rounded-full font-bold w-72">
-                Browse Vacancies
-            </button>
+            <Link to="/vacancies" className="bg-orange-950 text-white px-10 py-4 rounded-full font-bold w-72">
+                Browse News
+            </Link>
 
-            <button className="flex items-center justify-center gap-3 bg-transparent border border-slate-500 text-white px-10 py-4 rounded-full font-bold w-72">
+            <Link to="/login" className="flex items-center justify-center gap-3 bg-transparent border border-slate-500 text-white px-10 py-4 rounded-full font-bold w-72">
                          Login <span className="material-symbols-outlined"></span>
-                </button>
+                </Link>
             </div>    
         </section>
 
