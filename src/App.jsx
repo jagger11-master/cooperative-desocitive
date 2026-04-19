@@ -3,6 +3,9 @@ import Phase1 from './components/phase1';
 import Login from './pages/Login';         
 import Vacancies from './pages/Vacancies'; 
 import Signup from './pages/Signup';
+import ForgotPassword from './pages/ForgotPassword';
+
+
 function App() {
   return (
     <Routes>
@@ -10,6 +13,7 @@ function App() {
       <Route path="/login" element={<Login />} />
       <Route path="/vacancies" element={<Vacancies />} />
       <Route path="/signup" element={<Signup />} />
+      <Route path="/forgot-password" element={<ForgotPassword />} />
     </Routes>
   );
 }

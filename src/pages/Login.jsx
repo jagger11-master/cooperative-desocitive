@@ -44,9 +44,10 @@ export default function Login() {
           </div>
 
           <div className="text-right">
-            <button type="button" className="text-xs font-bold text-orange-600 uppercase">Forgot your password?</button>
-          </div>
-
+               <Link   to="/forgot-password"   className="text-xs font-bold text-orange-600 uppercase hover:text-orange-500" >
+                   Forgot your password? 
+               </Link>
+        </div>
           <button className="w-full bg-[#3b5d8f] text-white py-4 rounded-xl font-bold flex items-center justify-center gap-2 mt-4 active:scale-95 transition-all">
             <LogIn size={20} /> Login
           </button>
