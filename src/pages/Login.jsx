@@ -8,7 +8,7 @@ export default function Login() {
   const [showPassword, setShowPassword] = useState(false);
 
   return (
-    <div className="min-h-screen bg-[#0a0a0b] flex flex-col items-center p-6">
+    <div className="fixed inset-0 bg-[#0a0a0b] flex flex-col items-center justify-center p-6 overflow-hidden touch-none">
       <div className="w-full max-w-md self-center mb-4">
         <button onClick={() => navigate(-1)} className="p-2 transition-transform hover:scale-110">
           <ArrowLeft size={24} className="text-orange-600" />
