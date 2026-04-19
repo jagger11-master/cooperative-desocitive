@@ -1,1 +1,20 @@
 @import "tailwindcss";
+
+
+input:-webkit-autofill,
+input:-webkit-autofill:hover, 
+input:-webkit-autofill:focus, 
+input:-webkit-autofill:active {
+  -webkit-text-fill-color: white !important;
+  -webkit-box-shadow: 0 0 0px 1000px #1a1a1c inset !important;
+  transition: background-color 5000s ease-in-out 0s;
+}
+
+input:focus {
+  outline: none !important;
+  background-color: #1a1a1c !important;
+}
+
+input {
+  filter: none !important;
+}
