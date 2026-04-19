@@ -17,10 +17,16 @@ function Phase1() {
                 Charwe-media is an online platform designed to enable Tanzanians to dedicated storrytellings,
                 branding solutions and media production.
             </p>
+            <div className="flex flex-col items-center gap-6">
 
-            <button className="bg-orange-950 text-white px-8 py-3 rounded-full font-bold">
+            <button className="bg-orange-950 text-white px-10 py-4 rounded-full font-bold w-72">
                 Browse Vacancies
             </button>
+
+            <button className="flex items-center justify-center gap-3 bg-transparent border border-slate-500 text-white px-10 py-4 rounded-full font-bold w-72">
+                         Login <span className="material-symbols-outlined"></span>
+                </button>
+            </div>    
         </section>
 
     );
