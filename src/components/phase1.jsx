@@ -9,11 +9,11 @@ function Phase1() {
             <img src={logo} alt="Charwe Logo" className="h-48 w-auto relative -top-12 mb-6 rounded-3xl" />
 
 
-            <h3 className="text-5xl font-black text-slate-200 mb-10">
+            <h3 className="text-4xl md:text-6xl font-black text-slate-200 mb-10">
                Welcome to Charwe Media
                 
             </h3>
-            <p className="text-xl text-slate-300 max-w-2xl mb-10">
+            <p className="text-lg md:text-xl text-slate-300 max-w-2xl mb-10">
                 Charwe-media is an online platform designed to enable Tanzanians to dedicated storrytellings,
                 branding solutions and media production.
             </p>
