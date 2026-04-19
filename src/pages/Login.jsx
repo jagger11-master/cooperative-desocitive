@@ -26,7 +26,7 @@ export default function Login() {
             <User className="absolute left-4 top-1/2 -translate-y-1/2 text-slate-500" size={18} />
             <input 
               type="text" 
-              placeholder="jescahenry@gmail.com" 
+              placeholder="charwemedia12@gmail.com" 
               className="w-full pl-12 pr-4 py-3.5 bg-[#1a1a1c] border border-white/10 rounded-xl text-white placeholder:text-slate-600 focus:ring-1 focus:ring-orange-600 outline-none transition-all" 
             />
           </div>
