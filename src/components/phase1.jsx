@@ -8,7 +8,7 @@ import logo from "../assets/charwe.png";
 function Phase1() {
     return (
 
-        <section className="h-screen flex flex-col items-center justify-center bg-[#0a0a0b] px-6 text-center">
+      <section className="fixed inset-0 flex flex-col items-center justify-center bg-[#0a0a0b] px-6 text-center overflow-hidden touch-none select-none">
             <img src={logo} alt="Charwe Logo" className="h-48 w-auto relative -top-12 mb-6 rounded-3xl" />
 
 
