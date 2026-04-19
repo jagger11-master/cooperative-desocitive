@@ -28,7 +28,7 @@ function Phase1() {
 
             <Link to="/login" className="flex items-center justify-center gap-3 bg-transparent border border-slate-500 text-white px-10 py-4 rounded-full font-bold w-72">
                          Login <span className="material-symbols-outlined"></span>
-                </Link>
+            </Link>
             </div>    
         </section>
 
