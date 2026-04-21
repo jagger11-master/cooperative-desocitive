@@ -99,11 +99,11 @@ export default function Vacancies() {
 
                    <address className="not-italic text-sm text-slate-300">
                           Email: <a href="mailto:Supportcharwemedia@gmail.com" className="hover:text-orange-600 transition-colors">
-                                              Supportcharwemedia@gmail.com
+                                              charwemedia123@gmail.com
                                 </a>
                        <br />
                                 Phone: <a href="tel:+255698162028" className="hover:text-orange-600 transition-colors">
-                                          +255 698 162 028
+                                          0682721497
                                        </a>
                   </address>
                   <small className="not-italic text-sm text-slate-300"  >&charwe-media Co.</small>
