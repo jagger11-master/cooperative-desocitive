@@ -106,7 +106,7 @@ export default function Vacancies() {
                                           0682721497
                                        </a>
                   </address>
-                  <small className="not-italic text-sm text-slate-300"  >&charwe-media Co.</small>
+                  <small className="not-italic text-sm text-slate-300"  >charwe-media Co.ltd.</small>
 
       </footer>
     </div>
